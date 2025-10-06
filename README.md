@@ -25,6 +25,8 @@ Run `npm run lint` to execute the code styling rules for the project.
 
 See the [License FAQ and Installation documentation](https://www.infragistics.com/products/ignite-ui-angular/angular/components/general/ignite-ui-licensing) for information on how to upgrade to the full licensed package, if the project is using a Trial version of Ignite UI for Angular, and how to setup your environment and CI to use our licensed npm feed.
 
+If you're downloading the project as a .zip file, you still need to follow the steps in the License FAQ to configure access to the licensed feed before installing dependencies.
+
 Alternatively run `npm run infragistics-login` for a guided login to our licensed feed.
 
 ## Additional resources
