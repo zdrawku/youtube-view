@@ -1,5 +1,8 @@
 # YouTube Studio Navigation Drawer
 
+<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/d66e3494-e2cf-49a5-9761-37594bdf985a" />
+
+
 This project was generated with [App Builder Code Gen](https://www.infragistics.com/products/appbuilder).
 
 ## Development server
