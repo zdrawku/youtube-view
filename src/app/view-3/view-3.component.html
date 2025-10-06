@@ -1,0 +1,23 @@
+<a target="_blank" [igxToggleAction]="dropdown" class="ig-typography__body-1 hyperlink">
+  This is a link
+</a>
+<igx-combo type="border" [data]="financialBoxOfficeRevenue" valueKey="Franchise" displayKey="Franchise" class="combo">
+  <label igxLabel>Label/Placeholder</label>
+</igx-combo>
+<igx-category-chart [dataSource]="financialBoxOfficeRevenue" includedProperties="Franchise,TotalWorldBoxOfficeRevenue,HighestGrossingMovieInSeries" initialSorts="Franchise asc" computedPlotAreaMarginMode="series" class="category-chart"></igx-category-chart>
+<igx-drop-down #dropdown class="dropdown">
+  <igx-drop-down-item>
+    Option
+  </igx-drop-down-item>
+  <igx-drop-down-item>
+    Option
+  </igx-drop-down-item>
+  <igx-drop-down-item>
+    Option
+  </igx-drop-down-item>
+  @for (item of northwindCategories; track item) {
+    <igx-drop-down-item>
+      Option
+    </igx-drop-down-item>
+  }
+</igx-drop-down>
